@@ -6,8 +6,8 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 
-TMDB_KEY = os.getenv("TMDB_KEY")
-OMDB_KEY = os.getenv("OMDB_KEY")
+TMDB_KEY = st.secrets.get("TMDB_KEY", os.getenv("TMDB_KEY"))
+OMDB_KEY = st.secrets.get("OMDB_KEY", os.getenv("OMDB_KEY"))
 
 # ---------------- API Helpers with Caching ---------------- #
 @st.cache_data(show_spinner=False)
@@ -174,3 +174,4 @@ if st.session_state.watchlist:
         st.sidebar.write("🎬", item)
 else:
     st.sidebar.write("No movies added yet")
+
