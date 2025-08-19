@@ -44,6 +44,8 @@ OMDB_KEY=your_omdb_key_here
 
 streamlit run app.py
 
+---
+
 ## 🌍 Deployment (Streamlit Cloud)
 
 1. Push your repo to GitHub
@@ -56,6 +58,8 @@ TMDB_KEY="your_tmdb_key_here"
 OMDB_KEY="your_omdb_key_here"
 6. ✅ Done! Your app will be live with a public shareable link
 
+---
+
 ## 📂 Project Structure
 
 movie-ratings-app/
@@ -65,8 +69,11 @@ movie-ratings-app/
 │── .gitignore        # Ignore .env, cache files, etc.
 │── README.md         # Project documentation
 
+---
+
 ## 🙌 Credits
 
 TMDb for movie data
 OMDb for IMDb & Rotten Tomatoes ratings
 Built with ❤️ using Streamlit
+
