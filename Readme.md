@@ -36,8 +36,9 @@ pip install -r requirements.txt
 ### 3️⃣ Configure API Keys
 Create a .env file in the project root:
 
-TMDB_KEY=your_tmdb_key_here
-OMDB_KEY=your_omdb_key_here
+&nbsp;&nbsp;&nbsp;TMDB_KEY=your_tmdb_key_here  
+&nbsp;&nbsp;&nbsp;OMDB_KEY=your_omdb_key_here    
+
 (See .env.example for reference — do NOT push your real .env to GitHub.)
 
 ### 4️⃣ Run the app locally
@@ -54,26 +55,34 @@ streamlit run app.py
 4. Add your API keys in Secrets Manager → Settings → Secrets
 5. Paste:
 
-TMDB_KEY="your_tmdb_key_here"
-OMDB_KEY="your_omdb_key_here"
-6. ✅ Done! Your app will be live with a public shareable link
+
+
+   
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TMDB_KEY="your_tmdb_key_here"  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OMDB_KEY="your_omdb_key_here"  
+
+  6. ✅ Done! Your app will be live with a public shareable link
 
 ---
 
 ## 📂 Project Structure
 
 movie-ratings-app/
-│── app.py            # Main Streamlit app
-│── requirements.txt  # Dependencies
-│── .env.example      # Example env file (safe to push)
-│── .gitignore        # Ignore .env, cache files, etc.
-│── README.md         # Project documentation
+- app.py           # Main Streamlit app
+- requirements.txt # Dependencies
+- .env.example     # Example env file (safe to push)
+- .gitignore       # Ignore .env, cache files, etc.
+- README.md        # Project documentation
+
+
 
 ---
 
 ## 🙌 Credits
 
-TMDb for movie data
-OMDb for IMDb & Rotten Tomatoes ratings
-Built with ❤️ using Streamlit
+TMDb for movie data.  
+OMDb for IMDb & Rotten Tomatoes ratings.  
+Built with ❤️ using Streamlit.
+
 
