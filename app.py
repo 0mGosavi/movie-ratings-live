@@ -20,6 +20,7 @@ db = SessionLocal()
 
 class User(Base):
     __tablename__ = "users"
+    print("Creating users table HELO")
     id = Column(Integer, primary_key=True)
     username = Column(String, unique=True)
     email = Column(String, unique=True)
