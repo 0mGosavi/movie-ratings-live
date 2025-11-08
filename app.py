@@ -25,11 +25,7 @@ class User(Base):
     username = Column(String, unique=True)
     email = Column(String, unique=True)
     password = Column(String)  # hashed password
-    print("HelloIndia")
-    print("HelloWOrldd")
-    print("Creating users table")
-    print("Creating users table DONE")
-
+    print("Hello")
     watchlist = relationship("Watchlist", back_populates="user")
 
 class Watchlist(Base):
@@ -278,5 +274,4 @@ elif menu == "App":
             st.sidebar.write("🎬", item)
     else:
         st.sidebar.write("No movies added yet")
-
 
