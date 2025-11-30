@@ -55,7 +55,7 @@ streamlit run app.py
 
 1. Push your repo to GitHub
 2. Go to Streamlit Cloud
-3. Connect your repo and select app.py
+3. Connect your repo and select `app.py`
 4. Add your API keys in Secrets Manager → Settings → Secrets
 5. Paste:
 
@@ -87,6 +87,7 @@ movie-ratings-app/
 TMDb for movie data.  
 OMDb for IMDb & Rotten Tomatoes ratings.  
 Built with ❤️ using Streamlit.
+
 
 
 
