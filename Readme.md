@@ -26,24 +26,28 @@ Search by title or browse curated categories like **Popular, Top Rated, and Now 
 
 ### 1️⃣ Clone the repository
 
+```
 git clone https://github.com/0mGosavi/movie-ratings-app.git
 cd movie-ratings-app
+```
 
 ### 2️⃣ Install dependencies
-
+```
 pip install -r requirements.txt
+```
 
 ### 3️⃣ Configure API Keys
 Create a .env file in the project root:
-
+```
 &nbsp;&nbsp;&nbsp;TMDB_KEY=your_tmdb_key_here  
 &nbsp;&nbsp;&nbsp;OMDB_KEY=your_omdb_key_here    
-
+```
 (See .env.example for reference — do NOT push your real .env to GitHub.)
 
 ### 4️⃣ Run the app locally
-
+```
 streamlit run app.py
+```
 
 ---
 
@@ -76,7 +80,6 @@ movie-ratings-app/
 - README.md        # Project documentation
 
 
-
 ---
 
 ## 🙌 Credits
@@ -84,5 +87,6 @@ movie-ratings-app/
 TMDb for movie data.  
 OMDb for IMDb & Rotten Tomatoes ratings.  
 Built with ❤️ using Streamlit.
+
 
 
