@@ -83,7 +83,8 @@ movie-ratings-app/
 
 TMDb for movie data.  
 OMDb for IMDb & Rotten Tomatoes ratings.  
-Built with ❤️ using Streamlit. Enjoy Movie Time !
+Built with ❤️ using Strmlit. Enjoy Movie Time !
+
 
 
 
