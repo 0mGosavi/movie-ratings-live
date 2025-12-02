@@ -18,7 +18,7 @@ Search by title or browse curated categories like **Popular, Top Rated, and Now 
 - Python  
 - Streamlit  
 - TMDb API  
-- OMDb API  
+- OMDb API
 
 ---
 
@@ -62,7 +62,7 @@ streamlit run app.py
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TMDB_KEY="your_tmdb_key_here"  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OMDB_KEY="your_omdb_key_here"  
 
-  6. ✅ Done! Your app will be live with a public shareable link
+  6. ✅ Done! Your app will be live with a public shareable link ! enjoy !
 
 ---
 
@@ -83,6 +83,7 @@ movie-ratings-app/
 
 TMDb for movie data.  
 OMDb for IMDb & Rotten Tomatoes ratings.  
-Built with ❤️ using Streamlit.
+Built with ❤️ using Streamlit. Enjoy Movie Time !
+
 
 
